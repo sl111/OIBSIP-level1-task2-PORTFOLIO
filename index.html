@@ -19,25 +19,25 @@
             </div>
 
             <div class="navbar__nav__items">
-                <button class="nav__item__1 button__primary">HOME</button>
+                <button class="nav__item__1 button__primary"><a href="#hero__container">HOME</a></button>
             </div>
             <div class="navbar__nav__items">
-                <button class="nav__item__2 button__primary">ABOUT</button>
+                <button class="nav__item__2 button__primary"><a href="#hero__container__2">ABOUT</a></button>
             </div>
             <div class="navbar__nav__items">
-                <button class="nav__item__3 button__primary">PROJECT</button>
+                <button class="nav__item__3 button__primary"><a href="#pro__container"> PROJECT</a></button>
             </div>
             <div class="navbar__nav__items">
-                <button class="nav__item__4 button__primary">RESUME</button>
+                <button class="nav__item__4 button__primary"><a href="#skill__container">RESUME</a></button>
             </div>
             <div class="navbar__nav__items">
-                <button class="nav__item__5 button__primary">CONTACT</button>
+                <button class="nav__item__5 button__primary"><a href="#footer__container">CONTACT </a></button>
             </div>
         </nav>
     </header>
 
     <main class="container">
-        <section class="hero__container">
+        <section class="hero__container" id="hero__container">
             <div class="hero__image__container">
                 <img src="assets/brand.jpg" alt="hero image" class="hero__image"/>
             </div>
@@ -49,7 +49,7 @@
             </div>
         </section>
 
-        <section class="hero__container__2">
+        <section class="hero__container__2"id="hero__container__2">
             <div class="hero__image__container__2">
                 <img src="assets/about_me.jpg" alt="hero image2" class="hero__image__2"/>
             </div>
@@ -61,7 +61,7 @@
 
 
 
-        <section class="pro__container">
+        <section class="pro__container" id="pro__container">
             <div class="pro__box">
                 <h1 class="hero__text">MY PROJECTS</h1>
                 <input type="radio" id="img__1" name="image" checked>
@@ -71,7 +71,7 @@
             </div>
         </section>
 
-        <section class="skill__container">
+        <section class="skill__container" id="skill__container">
             <div class="skill_bar__container">
                 <div class="graph" style="height: 92%">
                     <div class="percent">92%</div>
@@ -132,7 +132,7 @@
         </section>
 
     </main>
-    <footer class="footer__container">
+    <footer class="footer__container" id="footer__container">
         <div class="footer__main__text">
             <h1 class="footer__brand">VIEW MY PROFILE</h1>
             <a href = "https://github.com/sl111" target="_blank" class="resume__logo" >  
@@ -152,10 +152,9 @@
             
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" style="height:100px"></textarea>
-                <input type="submit" class="submit" value="Submit">
-            </form>
-            
+                <input type="submit" class="submit" value="Submit">        
         </div>
+
     </footer> 
 </body>
 </html>
